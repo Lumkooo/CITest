@@ -30,6 +30,7 @@ final class MainView: UIView {
 
 extension MainView: MainViewInterface {
     func reloadCarsCollection() {
+        print("RELOAD CARS COLLECTIONS!")
         // TODO: - reloadCarsCollection
     }
 }
