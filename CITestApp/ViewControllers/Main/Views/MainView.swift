@@ -22,7 +22,7 @@ final class MainView: UIView {
     }
 
     required init?(coder: NSCoder) {
-        super.init(coder: coder)
+        fatalError("coder not implemented")
     }
 }
 
