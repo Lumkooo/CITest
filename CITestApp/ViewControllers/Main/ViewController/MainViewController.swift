@@ -32,6 +32,7 @@ final class MainViewController: UIViewController {
 
     override func loadView() {
         super.loadView()
+        print("load view!")
         view = ui
     }
 
